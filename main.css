@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+  background-image: url('img/main.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  font-family: Caveat;
+  font-size: 30px;
+}
+
+.mainBlock {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainBlock_Top {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+}
+
+.Top_Caption {
+  width: 100%;
+  margin: auto;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.mainBlock_Bottom {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  background-color: orange;
+}
+
+.Bottom_lefSide {
+  display: flex;
+  width: 30%;
+  background-image: url('img/leftSide.jpg');
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.leftSide_Links {
+  transition: all 1s;
+  width: auto;
+  margin: 0 auto;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.leftSide_Links:hover {
+  transition: all 1s;
+  width: auto;
+  text-decoration: underline;
+  color: brown;
+}
+
+.Bottom_rightSide {
+  display: flex;
+  width: 70%;
+  overflow-y: scroll;
+  background-image: url('img/rightSide.jpg');
+  flex-direction: column;
+}
+
+.rightSide_wrapper {
+  width: 96%;
+  height: auto;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSide_Text {
+  display: flex;
+  height: auto;
+  width: auto;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.textMiddle {
+  font-size: 20px;
+}
+
+.textPreMiddle {
+  font-size: 25px;
+}
+
+.textLarge {
+  font-size: 50px;
+}
+
+.textCenter {
+  justify-content: center;
+}
+
+.Lora {
+  font-family: Lora;
+}
+
+.Comfortaa {
+  font-family: Comfortaa;
+}
+
+.Caveat {
+  font-family: Caveat;
+}
+
+.Margin10 {
+  margin-bottom: 10px;
+}
+
+.imgStyles {
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 2%;
+}
+
+.leftSide_groovingBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.groovingBlock_Block {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.Block_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.BlockTop_Text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BlockBottom_Text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideRight_allert {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.allert_item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.linkBlock {
+  display: flex;
+  position: absolute;
+  right: 300px;
+  bottom: 10px;
+  justify-content: space-between;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.linkBlock_item {
+  width: auto;
+  padding: 5px;
+  height: auto;
+  margin: auto 0;
+  transition: all 1s;
+  color: brown;
+  background: none;
+  border: solid brown 1px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.linkBlock_item:hover {
+  transition: all 1s;
+  color: blue;
+  border: solid blue 1px;
+}
+
+.Bottom_rightSide::-webkit-scrollbar {
+  width: 10px;
+  background-color: #c0c0c0;
+}
+
+.Bottom_rightSide::-webkit-scrollbar-track {
+  background-color: #f9f9fd;
+  border-radius: 10px;
+}
+
+.Bottom_rightSide::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: brown;
+}
+
+.active {
+  text-decoration: underline;
+  color: brown;
+}
+
+.pad8 {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.tableStyle {
+  border-color: brown;
+  font-family: Comfortaa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 200px;
+  height: auto;
+}
+
+.tableStylePart2 {
+  display: flex;
+  border: none;
+  border-bottom: solid 2px gray;
+}
